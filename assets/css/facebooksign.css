@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+.facebook{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    margin: 0 auto;
+    margin-bottom: 1500px;
+    font-family: arial;
+    max-width: 500px;
+    background-color: azure;
+    width: 100%;
+}
+
+.overall{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width:100%;
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signup-form{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.signup-form input{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.topic{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+.topic-p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.input-all{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.input-all input{
+    width: 48%;
+}
+
+
+.birth{
+    display: flex;
+    gap: 15px;
+}
+
+.birth select{
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.gender-box{
+    display:flex;
+    /* width: 32%; */
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.gender-box span{
+    flex: 1;
+}
+
+
+.signup-put{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+button{
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 130px;
+    margin-bottom: 5px;
+}
+button:hover{
+    background-color: lightgreen;
+}
+
+strong{
+    color: blue;
+}
+
+a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    text-align: center;
+}
+
+p{
+    color: grey;
+    font-size: 13px;
+}

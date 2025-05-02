@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-bottom: 1500px;
+    margin: 0 auto;
+    font-family: arial;
+    max-width: 600px;
+    background-color: azure;
+}
+
+.overall{
+    width:100%;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.facebook{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-title{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin: 6px auto;
+    text-align:left;
+}
+
+.login-button{
+    background-color: blue;
+    color:white;
+    border: none;
+    border-radius: 4px;
+    padding: 14px;
+    width:100%;
+    margin: 6px auto;
+    text-align: center;
+    cursor: pointer;
+}
+button{
+    font-size: 20px;
+}
+
+a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    text-align: center;
+  }
+
+.seperator{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or{
+    color:grey;
+}
+
+.newaccount{
+    color:white;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
